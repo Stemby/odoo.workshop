@@ -4,11 +4,11 @@ date: 2018-06-27T16:37:24+02:00
 weight: 1
 ---
 
-Prima di arrivare al corso sarebbe opportuno avere già installati e funzionanti un edito di testo, Git, Docker e Docker Compose
+Prima di arrivare al corso sarebbe opportuno avere già installati e funzionanti un editor di testo, Git, Docker e Docker Compose.
 
 ## Editor di testo
 
-Non ci sono preferenze per l'editor di testo, ovviamente è opportuno usarne uno che aiuti a lavorare con codice python e javascript
+Non ci sono preferenze per l'editor di testo; ovviamente è opportuno usarne uno che aiuti a lavorare con codice python e javascript.
 
 Un elenco di alcuni possibili editor:
 
@@ -36,7 +36,7 @@ Su Redhat/Centos
 
 ### Mac
 
-Su mac, se non l'avete gia' fatto, prima dell'installazione di Git bisogna procedere a installare [Homebrew](http://brew.sh/) (cosa piuttosto importante se si intende sviluppare software)
+Su mac, se non l'avete già fatto, prima dell'installazione di Git bisogna procedere a installare [Homebrew](http://brew.sh/) (cosa piuttosto importante se si intende sviluppare software).
 
 Aprite un terminale e copia-incollate il seguente comando:
 
@@ -45,7 +45,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew doctor
 ```
 
-Vi chiedera di installare la _Command Line Developer Tool_ di Apple. Cliccate _Install_ per confermare. Una volta terminato premete _Invio_ per terminare l'installazione di Homebrew.
+Vi chiederà di installare la _Command Line Developer Tool_ di Apple. Cliccate _Install_ per confermare. Una volta terminato premete _Invio_ per terminare l'installazione di Homebrew.
 
 Effettuato queso passaggio potete installare Git da terminale con il comando:
 
@@ -55,14 +55,14 @@ brew install git
 
 ### Windows
 
-Su Windows scaricate l'applicazione [Git for Windows](https://gitforwindows.org/) e installatela
+Su Windows scaricate l'applicazione [Git for Windows](https://gitforwindows.org/) e installatela.
 
 ## Docker e Docker Compose
 
 **Docker** è uno strumento di pacchetizzazione generico per le nostre applicazioni. Semplifica l'installazione di ambienti complessi sia in fase di sviluppo che di produzione. Per noi è utile per riuscire ad avere una piattaforma uguale per tutti su cui lavorare.
 Il risultato di una pacchettizzazione con Docker è chiamato _Container_. Un container è a tutti gli effetti un eseguibile che potete lanciare da linea di comando passandogli parametri secondo necessità.
 
-Non è necessario utilizzare la versione Enterprise (EE), utilizzeremo la Community Edition (CE) che ha tutte le funzionalità necessarie (ma senza la stessa assistenza)
+Non è necessario utilizzare la versione Enterprise (EE), utilizzeremo la Community Edition (CE) che ha tutte le funzionalità necessarie (ma senza la stessa assistenza).
 
 **Docker Compose** invece serve a definire e lanciare diversi container in maniera orchestrata. Con compose si utilizza un file di configurazione YAML per definire tutti i servizi di cui è composta la nostra applicazione, per esempio: odoo, il database e il server web. Una volta terminata la configurazione è possibile creare e lanciare tutti i servizi di cui abbiamo bisogno con un singolo comando.
 
@@ -96,7 +96,7 @@ Infine installate l'ultima versione di docker:
 $ sudo apt-get install docker-ce
 ```
 
-Per le altre distribuzioni e' possibile trovare le istruzioni dettagliate nella [pagina ufficiale della documentazione di Docker](https://docs.docker.com/install/linux/docker-ce/centos/)
+Per le altre distribuzioni è possibile trovare le istruzioni dettagliate nella [pagina ufficiale della documentazione di Docker](https://docs.docker.com/install/linux/docker-ce/centos/).
 
 #### Docker Compose
 
@@ -125,21 +125,19 @@ docker-compose version 1.21.2, build 1719ceb
 
 #### Docker e Docker Compose
 
-Per Mac è sufficiente scaricare [l'applicazione ufficiale dall'Docker Store](https://store.docker.com/editions/community/docker-ce-desktop-mac)
+Per Mac è sufficiente scaricare [l'applicazione ufficiale dal Docker Store](https://store.docker.com/editions/community/docker-ce-desktop-mac).
 
-Per maggiori informazioni qui trovate la [pagina di documentazione specifica](https://docs.docker.com/docker-for-mac/install/#install-and-run-docker-for-mac)
+Per maggiori informazioni qui trovate la [pagina di documentazione specifica](https://docs.docker.com/docker-for-mac/install/#install-and-run-docker-for-mac).
 
 
 ### Windows
 
 #### Docker e Docker Compose
 
-Come per Mac è sufficiente scaricare [l'applicazione ufficiale dall'Docker Store]
-(https://store.docker.com/editions/community/docker-ce-desktop-windows)
+Come per Mac è sufficiente scaricare [l'applicazione ufficiale dal Docker Store](https://store.docker.com/editions/community/docker-ce-desktop-windows).
 
-Per maggiori informazioni qui trovate la [pagina di documentazione specifica]
-(https://docs.docker.com/docker-for-windows/install/#where-to-go-next)
+Per maggiori informazioni qui trovate la [pagina di documentazione specifica](https://docs.docker.com/docker-for-windows/install/#where-to-go-next).
 
 ## Continua...
 
-Una volta terminata questa procedura siete pronti ad iniziare il corso [installando l'ambiete di sviluppo Odoo](/odoo.workshop/basics/installazione/)
+Una volta terminata questa procedura siete pronti ad iniziare il corso [installando l'ambiente di sviluppo Odoo](/odoo.workshop/basics/installazione/).
