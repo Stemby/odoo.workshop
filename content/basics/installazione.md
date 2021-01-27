@@ -44,4 +44,4 @@ Password: **admin**
 
 ## Continua...
 
-Una volta terminata l'installazione possiamo affrontare [i concetti base](/odoo.workshop/basics/concetti/)
+Una volta terminata l'installazione possiamo affrontare [i concetti base](/odoo.workshop/basics/concetti/).
